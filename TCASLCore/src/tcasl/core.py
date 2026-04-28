@@ -52,12 +52,16 @@ class BaseSDNN(nn.Module):
 MODEL_REGISTRY: Dict[str, Dict] = {
     "sdnn_v1": {
         "class": BaseSDNN,
-        "url": "https://github.com/keshavshankar08/TCASLCore/releases/download/v1.0.0/sdnn_v1.pth" 
+        "url": "https://github.com/keshavshankar08/TCASL/releases/download/v1.0.0/sdnn_v1.pth" 
+    },
+    "sdnn_v2": {
+        "class": BaseSDNN,
+        "url": "https://github.com/keshavshankar08/TCASL/releases/download/v1.0.1/sdnn_v2.pth" 
     }
 }
 
 class TCASL:
-    def __init__(self, arch: str = "sdnn_v1", model_path: str = None, custom_registry: dict = None):
+    def __init__(self, arch: str = "sdnn_v2", model_path: str = None, custom_registry: dict = None):
         """
         Initializes the TCASL classifier.
 

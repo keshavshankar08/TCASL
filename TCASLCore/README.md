@@ -18,8 +18,8 @@ pip install tcasl
 
 ## Usage in Python
 
-Examples of how the library can be used can be found in [examples/](examples/). You should not edit this code unless you read the documentation thoroughly, which is located at [src/tcasl/core.py](src/tcasl/core.py).
+Examples of how the library can be used can be found in [examples/](https://github.com/keshavshankar08/TCASL/tree/main/TCASLCore/examples). You should not edit this code unless you read the documentation thoroughly, which is located at [src/tcasl/core.py](https://github.com/keshavshankar08/TCASL/blob/main/TCASLCore/src/tcasl/core.py).
 
 ## TCASL Project
 
-You can find information about TCASL on the [GitHub page](https://github.com/keshavshankar08/TCASLCore).
+You can find more information about TCASL on the [GitHub page](https://github.com/keshavshankar08/TCASL).

@@ -2,3 +2,4 @@ pyinstaller
 tcasl
 customtkinter
 pillow
+opencv-python
