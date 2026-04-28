@@ -6,19 +6,10 @@
 ## Table of Contents
 
 1. [Background](#background)
-2. [Introduction](#introduction)
 3. [Getting Started](#getting-started)
-    - [Demo](#demo)
-    - [PCB Assembly Tips](#pcb-assembly-tips)
-    - [Enclosure Assembly Tips](#enclosure-assembly-tips)
-    - [Robot Code (DickerBotController & DickerBotCommunicator)](#robot-code-dickerbotcontroller--dickerbotcommunicator)
-    - [Host Application (DickerBotHost)](#host-application-dickerbothost)
-    - [Client Library (DickerBotClient)](#client-library-dickerbotclient)
+    - [App (TCASLApp)](#app-tcaslapp)
+    - [Pip Library (TCASLCore)](#pip-library-tcaslcore)
 4. [Known Limitations](#known-limitations)
-5. [Why DickerBot?](#why-dickerbot)
-    - [Cost](#cost)
-6. [Contributing](#contributing)
-7. [Acknowledgements](#acknowledgements)
 
 ## Background
 
