@@ -1,0 +1,20 @@
+{
+  "Easy": [
+    "cat", "dog", "sun", "hat", "bat", "car", "cup", "pen",
+    "bed", "box", "toy", "map", "egg", "key", "bag", "fan",
+    "book", "shoe", "tree", "milk", "door", "ball"
+  ],
+  "Medium": [
+    "apple", "house", "train", "plane", "mouse", "water", "chair",
+    "table", "phone", "bread", "clock", "plant", "light", "glass",
+    "shirt", "pencil", "bottle", "window", "flower", "basket",
+    "mirror", "pillow"
+  ],
+  "Hard": [
+    "computer", "keyboard", "mountain", "building", "software",
+    "refrigerator", "television", "backpack", "microwave", "bicycle",
+    "airplane", "notebook", "headphones", "calculator", "umbrella",
+    "washingmachine", "bookshelf", "smartphone", "sunglasses",
+    "skateboard", "fireextinguisher"
+  ]
+}

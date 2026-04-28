@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcasl"
+version = "1.0.1"
+description = "Python library for temporal contrast American Sign Language classification."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Keshav Shankar", email = "keshavshankar08@gmail.com" }
+]
+dependencies = [
+    "opencv-python>=4.9.0,<4.11",
+    "numpy>=1.26.0,<2.0",
+    "torch>=2.0.0",
+    "torchvision",
+    "pillow>=9.0.0",
+    "lava-dl"
+]
+requires-python = ">=3.10, <3.11"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["tcasl"] 
+
+[project.urls]
+Homepage = "https://github.com/keshavshankar08/TCASLCore"
+Issues = "https://github.com/keshavshankar08/TCASLCore/issues"

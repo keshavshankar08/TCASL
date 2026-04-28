@@ -1,0 +1,4 @@
+pyinstaller
+tcasl
+customtkinter
+pillow
