@@ -8,6 +8,7 @@
 2. [Getting Started](#getting-started)
    - [App (TCASLApp)](#app-tcaslapp)
    - [Pip Library (TCASLCore)](#pip-library-tcaslcore)
+   - [Dataset (HuggingFace)](#dataset-huggingface)
 3. [Known Limitations](#known-limitations)
 
 ## Background
@@ -27,6 +28,9 @@ For setup and usage, see the [TCASLApp README](https://github.com/keshavshankar0
 A lightweight Python library for integrating temporal contrast emulation and SDNN inference into your own projects.
 
 For setup and usage, see the [TCASLCore README](https://github.com/keshavshankar08/TCASL/blob/main/TCASLCore/README.md).
+
+### Dataset (HuggingFace)
+To access our custom dataset, see our [HuggingFace](https://huggingface.co/datasets/keshavshankar/TCASL) page for instructions!
 
 ## Known Limitations
 
