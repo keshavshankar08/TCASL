@@ -15,6 +15,8 @@
 
 Millions of people around the world are deaf, and require the use of sign langauge to communicate. However, for those who do not know sign language, it can be difficult to understand what a person signing is saying. This challenge is especially prominent due to the fast nature of the signing gestures. To solve this, we mimic dynamic vision sensing (DVS) cameras, mimicing neuromorphic vision, only attending to movement (i.e., gestures). This makes our classification of ASL much more efficient, and even able to run on edge devices. This allows someone to easily use their laptop to capture a person signing letters in real-time, and provide a translation of what they are spelling.
 
+📄 **[Read the paper (PDF)](TCASL.pdf)**
+
 ## Getting Started
 
 ### App (TCASLApp)
