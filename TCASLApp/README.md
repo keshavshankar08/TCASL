@@ -4,7 +4,9 @@ TCASL is a fun, ASL learning tool, taking you through different difficulties of 
 
 ## Installation
 
-You can download the latest release of TCASL from [here](https://github.com/keshavshankar08/TCASL/releases). 
+Application support for Windows X64 and Apple ARM is coming! 
+
+For now, simply clone this repository, install the necessary pip libraries in `requirements.txt`, then run `app.py`.
 
 ## TCASL Project
 
