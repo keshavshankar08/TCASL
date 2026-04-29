@@ -23,7 +23,7 @@ Full examples (static image and real-time webcam) are in [`examples/`](https://g
 
 | Tag | Description |
 |---|---|
-| `sdnn_v2` *(default)* | Latest release (97.3% Accuracy) |
+| `sdnn_v2` *(default)* | Latest release (98.3% Accuracy) |
 | `sdnn_v1` | Initial release (95.9% Accuracy) |
 
 ## API Reference
