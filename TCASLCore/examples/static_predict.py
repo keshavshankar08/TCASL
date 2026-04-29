@@ -4,6 +4,8 @@ from tcasl import TCASL
 def main():
     # Initialize class
     tcasl = TCASL()
+    #tcasl = TCASL(model_path="/path/to/your/weights.pth")
+
     
     # Paths to example frames
     path1 = "examples/frame_1.png"

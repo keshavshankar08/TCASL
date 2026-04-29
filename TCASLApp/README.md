@@ -1,13 +1,29 @@
-# TCASL
+# TCASLApp
 
-TCASL is a fun, ASL learning tool, taking you through different difficulties of words to spell using ASL gestures in front of a camera.
+A gamified ASL learning app that prompts you to finger-spell words in front of your webcam, validating each letter in real time using temporal contrast emulation. Supports three difficulty levels based on word length.
 
 ## Installation
 
-Application support for Windows X64 and Apple ARM is coming! 
+TCASLApp does not yet have a standalone executable. To run it locally:
 
-For now, simply clone this repository, install the necessary pip libraries in `requirements.txt`, then run `app.py`.
+**1. Clone the repository**
+```bash
+git clone https://github.com/keshavshankar08/TCASL.git
+cd TCASL/TCASLApp
+```
+
+**2. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**3. Run the app**
+```bash
+python app.py
+```
+
+A webcam (built-in or external) is required.
 
 ## TCASL Project
 
-You can find information about TCASL on the [GitHub page](https://github.com/keshavshankar08/TCASL).
+For background and the research paper, see the [main TCASL repository](https://github.com/keshavshankar08/TCASL).

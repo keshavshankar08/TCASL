@@ -5,6 +5,7 @@ from tcasl import TCASL
 def main():
     # Initialize class
     tcasl = TCASL()
+    #tcasl = TCASL(model_path="/path/to/your/weights.pth")
     
     # Setup video capture
     cap = cv2.VideoCapture(1)

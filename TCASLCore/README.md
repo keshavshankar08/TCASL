@@ -1,25 +1,35 @@
-# TCASL
+# TCASLCore
 
-TCASL is a lightweight, pure Python inference engine for predicting American Sign Language (ASL) gestures using Temporal Contrast, simulating a Dynamic Vision Sensor (DVS).
+A lightweight Python inference engine for real-time American Sign Language (ASL) recognition using temporal contrast emulation to simulate a Dynamic Vision Sensor (DVS).
 
 ## Features
 
-* **Zero-Bloat Inference:** A strictly defined PyTorch wrapper built specifically for rapid prediction.
-* **Temporal Contrast Processing:** Built-in methods to convert standard webcam video into DVS-style event frames.
-* **Auto-Formatting:** Automatically center-crops and down-scales raw video arrays to the 128x128 resolution required by the network.
+- **Temporal contrast emulation:** Converts standard webcam frames into sparse DVS-style event maps, isolating hand motion and discarding static background.
+- **Auto-downloading weights:** Model weights are fetched automatically from GitHub Releases and cached locally via `torch.hub`, no manual download required.
+- **Auto-formatting:** Center-crops and rescales raw frames to the 128×128 input resolution expected by the network.
+- **Multiple model versions:** Switch between `sdnn_v1` and `sdnn_v2` via a single argument, or supply your own local `.pth` file.
 
 ## Installation
-
-You can install the latest release of TCASL from PyPI using `pip`:
 
 ```bash
 pip install tcasl
 ```
 
-## Usage in Python
+## Quick Start
 
-Examples of how the library can be used can be found in [examples/](https://github.com/keshavshankar08/TCASL/tree/main/TCASLCore/examples). You should not edit this code unless you read the documentation thoroughly, which is located at [src/tcasl/core.py](https://github.com/keshavshankar08/TCASL/blob/main/TCASLCore/src/tcasl/core.py).
+Full examples (static image and real-time webcam) are in [`examples/`](https://github.com/keshavshankar08/TCASL/tree/main/TCASLCore/examples).
+
+## Available Models
+
+| Tag | Description |
+|---|---|
+| `sdnn_v2` *(default)* | Latest release (97.3% Accuracy) |
+| `sdnn_v1` | Initial release (95.9% Accuracy) |
+
+## API Reference
+
+Full docstrings are in [`src/tcasl/core.py`](https://github.com/keshavshankar08/TCASL/blob/main/TCASLCore/src/tcasl/core.py).
 
 ## TCASL Project
 
-You can find more information about TCASL on the [GitHub page](https://github.com/keshavshankar08/TCASL).
+For background and the research paper, see the [main TCASL repository](https://github.com/keshavshankar08/TCASL).
